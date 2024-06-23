@@ -1,10 +1,11 @@
 import React from 'react'
+import  Alert from 'react-bootstrap/Alert'
 
 const Cart = () => {
   return (
-    <div>
-      <h3>Total Items: 5 (Rs. 3,000)/-</h3>
-    </div>
+    <Alert className='w-' variant={"success"}>
+      <h3 className='text-center'>Total Items: 5 (Rs. 3,000)/-</h3>
+    </Alert>
   )
 }
 

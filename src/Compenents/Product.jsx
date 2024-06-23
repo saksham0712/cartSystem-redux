@@ -3,7 +3,8 @@ import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
 
 const Product = (props) => {
-  console.log(props.productName)
+  // console.log(props)
+  // alert("ped is rendered")
   return (
     <Card key={props.id} style={{ width: "18rem", margin: "10px" }}>
       <Card.Img variant='top' src={props.image} alt={props.productName} />
