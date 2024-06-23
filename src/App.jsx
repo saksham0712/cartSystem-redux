@@ -11,11 +11,7 @@ function App() {
         <Cart />
         <div className="products" style={{display: "flex", flexWrap: "wrap"}}>
           {products.map((product) => 
-            
-            // <div key={product.id}>{product.productName}</div>
-            <Product {...product} />
-            // console.log(product.id)
-            // <Product  />
+           ( <Product {...product} />)
           )}
         </div>
       </div>
